@@ -38,6 +38,8 @@
 	  <li><a href = "glc_form.html">Request Form</a></li>
 	</ul>
 </nav> 
+
+
 	 
 <article id = "main"> 
 
@@ -50,7 +52,74 @@
 <h3>Clean Homes and Nutritions Meals, Made with Love</h3>
 	<p>Our providers offer comprehensive family meal planning and prep, creating nutritions and delicious weekly menus tailored to your family's preferences and dieterary needs. In addition to thoroughly cleaning up after baking or meal prep, our providers take pride in giving you and your family a clean and welcoming home.</p>
 
-</article> <!-- end main -->
+	<section>
+		<p><h5>Let us know how we can bring a little extra joy to your home by selecting a Grandma Love care package.</h5></p>
+	  
+  <form id="survey">
+	 <fieldset id="custInfo">
+		<legend>Request Details</legend>
+		
+		<div class="formRow">
+		   <label for="name">Name*</label>
+		   <input name="custName" id="name" type="text" placeholder="first and last name"/>
+		</div>
+  
+		<div class="formRow">
+		   <label for="mail">E-mail*</label>
+			<input name="custEmail" id="mail" type="email" />
+		 </div>
+  
+		 <div class="formRow">
+		   <label for="phone">Phone</label>
+		   <input name="custPhone" id="phone" type="text" placeholder="(nnn) nnn-nnnn"/>
+		</div>
+	   
+		<div class="formRow">
+		   <label for="city">City</label>
+		   <input name="custCity" id="city" type="text"/>
+		</div>
+  
+		<div class="formRow">
+		   <label for="state">State</label>
+		   <input name="custState" id="state" type="text" value="NE"/>
+		</div>
+  
+		<div class="formRow">
+		   <label for="zip">Postal Code</label>
+		   <input name="custZip" id="zip" type="text" placeholder="nnnnn (-nnnn)"/>
+		</div>
+  
+		<div class="formRow">
+		   <label for="request">Date of Request</label>
+		   <input name="requestDate" id="request" type="date" />
+	 </div>
+  
+	 <div class="formRow">
+		<label for="package">Package Requested</label>
+		<select name="packageType" id="package">
+			  <option value="order1">Infant Care</option>
+			  <option value="order2">Toddler Care</option>
+			  <option value="order3">Inclusive Care</option>
+			  <option value="order4">Emergency Care</option>
+			  <option value="order5" selected>Play 'n Learn</option>
+			  <option value="order6">Before/After School Care</option>           
+			 
+		</select>
+	 </div>      
+  
+		<input name="mailMe" id="mailCB" value="ues" type="checkbox" />
+		<label for="mailCB">Please add me to your monthly family support emails!</label>
+  
+			 </fieldset>
+  
+	   <div id="buttons">
+		   <input type="submit" value="Submit Request" />
+		   <input type="reset" value="Cancel" />
+		   
+		</div>
+	 </fieldset>
+  
+  </form></article> <!-- end main -->
 
 <aside> 
 
