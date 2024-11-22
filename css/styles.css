@@ -150,3 +150,15 @@ footer a:hover {
     text-decoration: underline;
 }
 
+h4 {font-size: 1.75em;
+    text-align: center;
+    padding-bottom: 1.5em;
+    padding-top: 0.5em;
+
+}
+
+h5 {font-size: 1.15em;
+    text-align: center;
+    padding-bottom: 1.5em;
+
+}
