@@ -1,0 +1,76 @@
+/*
+   Final Project
+   CMIS 410
+   Grandma Love Company
+
+   Survey Forms Style Sheet
+   Author: Jacquelyn Herout
+   Date:   11/10/2024
+
+   Filename:         rb_forms.css
+
+*/
+
+/* Form Layout Styles */
+
+div.formRow {
+   display: flex;
+   flex-flow: row wrap;
+   margin: 7px 5px;
+}
+
+div.formRow > * {
+   flex: 1 1 150px;
+}
+
+form#survey {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+form#survey > fieldset {
+   background-color: rgb(241, 232, 181);
+   border-radius: 20px;
+   flex: 1 1 300px;
+   font-size: .85em;
+   padding: 10px;
+   margin: 10px;
+}
+
+
+/* Legend Styles */
+
+legend {
+   background-color: rgb(179, 20, 25);
+   color: white;
+   padding: 5px;
+}
+
+/* Text Area Styles */
+
+textarea {
+   margin-top: 10px;
+   height: 100px;
+   Width: 95%;
+}
+
+
+/* Spinner Styles */
+
+
+
+/* Form Button Styles */
+
+div#buttons {
+   text-align: center;
+   width: 100%;
+}
+
+
+input[type='submit'], input[type='reset'] {
+   font-size: 1.15em;
+   padding: 5px;
+   margin: 15px;
+}
+/* Validation Styles */
+
