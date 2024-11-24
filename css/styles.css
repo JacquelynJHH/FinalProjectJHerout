@@ -30,7 +30,7 @@ body {
 
 header {
     width: 910px;	/* reduced by 20px to accommodate shadow */
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
     border: 1px solid #888888;
@@ -81,7 +81,7 @@ nav ul li a:hover {
 }
 
 figure{
-    padding-top: 10px;
+    padding-top: 40px;
     text-align: center;
 }
 
@@ -106,7 +106,7 @@ aside p {
 h2 {
     font-size: 1.0em;
     text-align: center;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.1em;
 }
 
 h3 {
@@ -157,8 +157,19 @@ h4 {font-size: 1.75em;
 
 }
 
-h5 {font-size: 1.15em;
+h5 {font-size: .75em;
     text-align: center;
     padding-bottom: 1.5em;
 
+}
+
+iframe {
+    border: none;
+}
+
+table {
+    border-style: ridge;
+    border: ".1px";
+    width: "200px";
+    box-align: "center";
 }
