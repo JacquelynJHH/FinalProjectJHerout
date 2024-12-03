@@ -169,7 +169,8 @@ iframe {
 
 table {
     border-style: ridge;
-    border: ".1px";
-    width: "200px";
-    box-align: "center";
+    border: 1px solid;
+    width: 200px;
+    box-align: center;
+    text-align: center
 }
