@@ -1,147 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	<!-- 
-		Final Project CMIS 410
-		Author: Jacquelyn Herout
-		Date: 11/15/2024
+	<head>
+		<!-- 
+			Final Project CMIS 410
+			Author: Jacquelyn Herout
+			Date: 11/15/2024
+			
+			These web pages are for educational purposes only, all content should be considered fictional. 
 		
-		These web pages are for educational purposes only, all content should be considered fictional. 
+		-->
+
+		<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+		<title>Grandma Love Company</title>
+		<link href="css/styles.css" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+
+	<body>
+
+		<div id = "container"> 
+
+			<header> 
+
+				<a href="index.html"><img src="images/GMLCFlogo.JPG" alt="Grandma Love Company Logo"/></a>
+
+			</header> 
+
+		<div id = "wrapper">
+			
+			<nav> 
+				<ul>
+					<li><a href = "index.html">Home</a></li>
+					<li><a href = "childcare.html">Child Care</a></li>
+					<li><a href = "cleaning.html">Cleaning</a></li>
+					<li><a href = "mealplan.html">Family Meal Planning</a></li>	  	  
+				</ul>
+
+				<iframe width="200" height="215" src="https://www.youtube.com/embed/GBwELzvnrQg?si=tM1cb-bKdvOnJ-YT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		
+			</nav> 
+		
+			<article id = "main"> 
+
+				<h2>Experience the Warmth of a Clean Home with Grandma Love Company</h2>
+				<p>We bring warmth and care to every with our specialized cleaning packages, designed to meet your unique needs, ensuring your home feels inviting. </p>
+
+				<p>KITCHEN & BATHROOM PACKAGE: We make your kitchen shine like Grandma's favorite recipe and your bathrooms sparkly fresh.</p>
+
+				<p>PICK-UP PACKAGE: Perfect for busy days when you just want your home to look need and tidy. We focus on high-traffic areas, ensuring a refreshed and orderly space.</p>
+		
+				<p>DEEP CLEAN PACKAGE: For those times when a regular clean just isn't enough, our deep cleaning services are just the right touch. Let us leave your home clean and refreshed!</p>
+
+				<section>
+
+					<h5>Let us know how we can take some of the clean-up off your to-do list by selecting one of our cleaning packages in the form below!</h5>
+
+				</section>
 	
-	-->
+				<form id="survey">
+					<fieldset id="custInfo">
+						<legend>Request Details</legend>
+		
+						<div class="formRow">
+							<label for="name">Name*</label>
+							<input name="custName" id="name" type="text" placeholder="first and last name"/>
+						</div>
 
-<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
-<title>Grandma Love Company</title>
-   <link href="css/styles.css" rel="stylesheet" />
+						<div class="formRow">
+							<label for="mail">E-mail*</label>
+							<input name="custEmail" id="mail" type="email" />
+						</div>
 
-</head>
+						<div class="formRow">
+							<label for="phone">Phone</label>
+							<input name="custPhone" id="phone" type="text" placeholder="(nnn) nnn-nnnn"/>
+						</div>
+	
+						<div class="formRow">
+							<label for="request">Date of Request</label>
+							<input name="requestDate" id="request" type="date" />
+						</div>
 
-<body>
-
-<div id = "container"> 
-
-<header> 
-
-<a href="cleaning.html"><img src="images/GMLCFlogo.JPG" alt="Grandma Love Company Logo"/></a>
-
-</header> 
-
-<div id = "wrapper">
+						<div class="formRow">
+							<label for="package">Package Requested</label>
+								<select name="packageType" id="package">
+									<option value="order1">Kitchen & Bathroom</option>
+									<option value="order2">Pick-Up</option>
+									<option value="order3" selected>Deep Clean</option>         
 		 
-<nav> 
-	<ul>
-	  <li><a href = "index.html">Home</a></li>
-	  <li><a href = "childcare.html">Child Care</a></li>
-	  <li><a href = "cleaning.html">Cleaning</a></li>
-	  <li><a href = "mealplan.html">Family Meal Planning</a></li>	  	  
-	</ul>
+								</select>
+						</div>      
 
-	<iframe width="200" height="215" src="https://www.youtube.com/embed/GBwELzvnrQg?si=tM1cb-bKdvOnJ-YT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-	
-</nav> 
-	 
-<article id = "main"> 
+						<input name="mailMe" id="mailCB" value="ues" type="checkbox" />
+						<label for="mailCB">Please add me to your monthly family support emails!</label>
 
-<h2>Experience the Warmth of a Clean Home with Grandma Love Company</h2>
-	<p>We bring warmth and care to every with our specialized cleaning packages, designed to meet your unique needs, ensuring your home feels inviting. </p>
+						<div id="buttons">
+							<input type="submit" value="Submit Request" />
+							<input type="reset" value="Cancel" />
+		
+						</div>
+					</fieldset>
 
-	<p>KITCHEN & BATHROOM PACKAGE: We make your kitchen shine like Grandma's favorite recipe and your bathrooms sparkly fresh.</p>
+				</form>
 
-	<p>PICK-UP PACKAGE: Perfect for busy days when you just want your home to look need and tidy. We focus on high-traffic areas, ensuring a refreshed and orderly space.</p>
-	
-	<p>DEEP CLEAN PACKAGE: For those times when a regular clean just isn't enough, our deep cleaning services are just the right touch. Let us leave your home clean and refreshed!</p>
+			</article> <!-- end main -->
 
-<section>
-	<h5>Let us know how we can take some of the clean-up off your to-do list by selecting one of our cleaning packages in the form below!
-	</h5>
-</section>
-  
-<form id="survey">
- <fieldset id="custInfo">
-	<legend>Request Details</legend>
-	
-	<div class="formRow">
-	   <label for="name">Name*</label>
-	   <input name="custName" id="name" type="text" placeholder="first and last name"/>
-	</div>
+			<aside> 
 
-	<div class="formRow">
-	   <label for="mail">E-mail*</label>
-		<input name="custEmail" id="mail" type="email" />
-	 </div>
+				<h3>House Cleaning Packages</h3>
 
-	 <div class="formRow">
-	   <label for="phone">Phone</label>
-	   <input name="custPhone" id="phone" type="text" placeholder="(nnn) nnn-nnnn"/>
-	</div>
-   
-	<div class="formRow">
-	   <label for="request">Date of Request</label>
-	   <input name="requestDate" id="request" type="date" />
- </div>
+				<table>
+					<tr>
+						<td>Kitchen & Bathroom</td>
+					</tr>
 
- <div class="formRow">
-	<label for="package">Package Requested</label>
-	<select name="packageType" id="package">
-		  <option value="order1">Basic</option>
-		  <option value="order2">Standard</option>
-		  <option value="order3" selected>Premium</option>         
-		 
-	</select>
- </div>      
+					<tr>
+						<td>Pick-Up</td>
+					</tr>
 
-	<input name="mailMe" id="mailCB" value="ues" type="checkbox" />
-	<label for="mailCB">Please add me to your monthly family support emails!</label>
+					<tr>
+						<td>Deep Clean</td>
+					</tr>
+				</table>  
+		
+				<figure>
+				<img src = "images/cleaningkitchen.png" alt = "Grandma wiping down the kitchen counter with a cloth"  />
 
-   <div id="buttons">
-	   <input type="submit" value="Submit Request" />
-	   <input type="reset" value="Cancel" />
-	   
-	</div>
- </fieldset>
+				<figcaption>
+					Bringing sparkle and shine with the Grandma Love touch<br>
+				</figcaption> 
+				</figure>
 
-</form>
+			</aside>   
 
-</article> <!-- end main -->
+			<footer> 
 
-<aside> 
+				<p>Grandma Love Company<br>
+					65 Kindness Lane &bull; Omaha, NE 61234<br>
+					<a href = "https://facebook.com" target="_blank">Facebook</a> | <a href = "https://www.instagram.com" target="_blank">Instagram</a> |<a href = "tel+4026771111">Telephone</a> | <a href ="mailto:jackie.herout@gmail.com">Email Us</a>
+				</p>
 
-<h3>House Cleaning Packages</h3>
+			</footer>  
 
-	<table>
-        <tr>
-            <td>Kitchen & Bathroom</td>
-        </tr>
-
-        <tr>
-            <td>Pick-Up</td>
-        </tr>
-
-        <tr>
-            <td>Deep Clean</td>
-        </tr>
-    </table>  
-	
-<figure>
-  <img src = "images/cleaningkitchen.png" alt = "Grandma wiping down the kitchen counter with a cloth"  />
-
-  <figcaption>
-    Bringing sparkle and shine with the Grandma Love touch<br>
-  </figcaption> 
-</figure>
-
-</aside>   
-
-<footer> 
-
-	<p>Grandma Love Company<br>
-	65 Kindness Lane &bull; Omaha, NE 61234<br>
-	<a href = "https://facebook.com" target="_blank">Facebook</a> | <a href = "https://www.instagram.com" target="blank">Instagram</a> |<a href = "tel+4026772857">402-677-2857</a> | <a href = "mailto:email.email@email.com">grandmalove.co@gmail.com</a></p>
-
-</footer>  
-
-</div> <!-- end wrapper --> 
-</div> <!-- end container -->
+		</div> <!-- end wrapper --> 
+	</div> <!-- end container -->
 
 </body>
 </html>

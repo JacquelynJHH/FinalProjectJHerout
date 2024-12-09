@@ -141,7 +141,7 @@ footer a:link {
 }
 
 footer a:visited {
-    color: rgb(3, 6, 17);
+    color: rgb(126, 236, 236);
     background-color: grey;
     text-decoration: none;
 }
@@ -171,6 +171,5 @@ table {
     border-style: ridge;
     border: 1px solid;
     width: 200px;
-    box-align: center;
     text-align: center;
 }
